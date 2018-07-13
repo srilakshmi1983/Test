@@ -3,6 +3,7 @@ package com.jpmorgan.messages.system;
 
 import com.jpmorgan.messages.system.Utils.Dictionary;
 import com.jpmorgan.messages.system.Utils.SaleAdjustmentStore;
+import com.jpmorgan.messages.system.Utils.Utils;
 import com.jpmorgan.messages.system.model.Adjustment;
 import com.jpmorgan.messages.system.model.Operation;
 import com.jpmorgan.messages.system.model.ProductType;

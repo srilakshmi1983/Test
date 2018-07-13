@@ -2,13 +2,13 @@ package com.jpmorgan.messages.system.model;
 
 
 public class Adjustment {
-private final ProductType producttype;
+private final ProductType productType;
 private final Operation operation;
 private final Double value;
 
 public Adjustment(Operation operation, ProductType productType, Double value){
     this.operation = operation;
-    this.producttype = productType;
+    this.productType = productType;
     this.value = value;
 }
 
@@ -21,7 +21,7 @@ public Adjustment(Operation operation, ProductType productType, Double value){
     }
 
     public ProductType getProductType() {
-        return producttype;
+        return productType;
     }
     @Override
     public String toString() {
