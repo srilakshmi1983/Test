@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="MessageProcessorjpmorgan" />
+        <module name="message-processor" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="MessageProcessorjpmorgan" target="1.8" />
+      <module name="message-processor" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
